@@ -18,7 +18,8 @@
 }
 
 .logo {
-  height: 2.2rem;
+  height: auto;
+  width: 20%;
 }
 
 /****************************/
@@ -35,7 +36,6 @@
 .nav-link:visited {
   text-decoration: none;
   font-size: 1.8rem;
-  font-weight: 500;
   color: #555;
   transition: all 0.3s;
 }
@@ -115,7 +115,7 @@
 .hero-img-box::before,
 .hero-img-box::after {
   content: "";
-  width: 55%;
+  width: 75%;
   height: 55%;
   position: absolute;
   padding-bottom: 35%;
@@ -135,7 +135,7 @@
 }
 
 .hero-img {
-  width: 55%;
+  width: 75%;
   z-index: 1;
   border-radius: 5px;
 }
@@ -175,8 +175,7 @@
 
 .featured-logo {
   height: 3.2rem;
-  filter: brightness(0);
-  opacity: 40%;
+  opacity: 60%;
 }
 
 /****************************/

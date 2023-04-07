@@ -61,7 +61,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
 }
 
 body {
@@ -142,13 +142,14 @@ body {
 .btn,
 .btn--primary:link,
 .btn--primary:visited {
+  margin-left: 13px;
   background-color: #1864ab;
   color: #fff;
 }
 
 .btn--primary:hover,
 .btn--primary:active {
-  background-color: #135089;
+  background-color: #0c3358;
 }
 
 .btn--secondary:link,
